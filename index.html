@@ -1,16 +1,85 @@
-
-<html>
-    <h1>
-        Hey, I'm Stiank Piank
-    </h1>
-    <body>
-        <h2>About me</h2>
-        <p>
-            I am a baller and I am great at siege.
-        </p>
-        <h2>More About Me</h2>
-        <p>
-            I'm the best golfer in the world and maybe better than Tiger Woods.
-        </p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats and Dogs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cats and Dogs</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website dedicated to the love of cats and dogs!</p>
+        <img src="https://via.placeholder.com/600x400" alt="Cat and Dog">
+    </div>
+    <div class="container" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200" alt="Cat">
+            <img src="https://via.placeholder.com/300x200" alt="Dog">
+            <img src="https://via.placeholder.com/300x200" alt="Cat and Dog">
+        </div>
+    </div>
+    <div class="container" id="about">
+        <h2>About</h2>
+        <p>This website is all about sharing the joy that cats and dogs bring into our lives.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to us through our social media channels!</p>
+    </div>
+    <footer>
+        <p>© 2024 Cats and Dogs. All rights reserved.</p>
+    </footer>
+</body>
 </html>
